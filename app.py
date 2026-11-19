@@ -1,4 +1,5 @@
 # This is app.py from python
+# flask is also in use
 from flask import Flask, render_template_string
 import platform
 import datetime
