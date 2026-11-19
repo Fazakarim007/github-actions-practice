@@ -1,9 +1,10 @@
-# This is app.py from python
-# flask is also in use
-from flask import Flask, render_template_string
-import platform
+# Standard library imports
 import datetime
+import platform
 import socket
+
+# Third-party imports
+from flask import Flask, render_template_string
 
 app = Flask(__name__)
 
